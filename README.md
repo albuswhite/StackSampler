@@ -6,4 +6,4 @@ It is based on Java Spring boot, combined with circuit breaker, kafka, Mysql, jw
 
 It shows the microservices infra including Backend for Frontend, Docker, k8s.
 
-It can deployed in AWS k8s cluster or ec2 instance.
+It can be deployed in AWS k8s cluster or ec2 instance.
