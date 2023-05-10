@@ -1,0 +1,30 @@
+
+
+spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/ass1?serverTimezone=UTC&amp&useUnicode=true&amp&characterEncoding=utf-8
+      username: root
+      password: 12345678
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    mail:
+      host: smtp.gmail.com
+      port: 587
+      username: <your_gmail_username>
+      password: <your_gmail_password>
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true
+    kafka:
+      groupId: crm-group
+      bootstrapAddress: 44.214.218.139:9092
+server:
+  port: 3030
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
